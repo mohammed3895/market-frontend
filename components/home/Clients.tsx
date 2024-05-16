@@ -50,7 +50,7 @@ export const CLIENTDATA = [
 
 const Clients = () => {
   return (
-    <div className="w-full lg:p-8 xl:p-14 h-full my-16 flex flex-col items-center justify-center gap-8">
+    <div className="w-full p-4 lg:p-8 xl:p-14 h-full my-16 flex flex-col items-center justify-center gap-8">
       <SectionTitle title="Why Choose Us" />
       <div className="w-full h-full grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-8">
         {CLIENTDATA.map((client, i) => (
