@@ -27,7 +27,7 @@ const Hero = () => {
               data-aos="fade-right"
               data-aos-delay="500"
               data-aos-duration="700"
-              className="text-3xl md:text-4xl lg:text-5xl font-semibold text-primary capitalize leading-tight"
+              className="text-3xl md:text-4xl lg:text-[5rem] !leading-[1] font-normal text-primary capitalize"
             >
               explore our brand new products
             </h1>
@@ -35,7 +35,7 @@ const Hero = () => {
               data-aos="fade-left"
               data-aos-delay="700"
               data-aos-duration="700"
-              className="text-muted-foreground text-sm w-4/5"
+              className="text-muted-foreground text-base w-4/5"
             >
               Meet our high-quality products thats combine between high quality
               and low price. to bring you ultimate experince
@@ -43,7 +43,7 @@ const Hero = () => {
 
             <div
               data-aos="fade-right"
-              data-aos-delay="500"
+              data-aos-delay="1000"
               data-aos-duration="700"
               className="flex items-center justify-start gap-4 mt-3"
             >

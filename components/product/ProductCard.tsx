@@ -53,22 +53,6 @@ const ProductCard: any = ({
         <h1 className="text-2xl font-semibold drop-shadow-xl text-background uppercase">
           {product.name}
         </h1>
-
-        {/* <div className="mt-2 flex flex-row items-center justify-between w-full gap-2">
-          <AddToCartButton
-            title="Add to cart"
-            classname="w-full"
-            productId={product.id as unknown as string}
-            ownerId={ownerId}
-            increaseQuantity={increaseQuantity}
-          />
-          <Link
-            href={`/products/${product.id}`}
-            className={cn(buttonVariants({ variant: "secondary" }), "w-full")}
-          >
-            See Details
-          </Link>
-        </div> */}
       </Link>
     </div>
   );

@@ -13,7 +13,7 @@ import { NavLinks } from "@/constants/NavLinks";
 const NavItems = () => {
   return (
     <NavigationMenu>
-      <NavigationMenuList className="rounded-none md:rounded-full px-1 bg-transparent md:bg-gray-50 w-full flex items-start justify-start flex-col md:flex-row">
+      <NavigationMenuList className="rounded-none md:rounded-full px-1 bg-transparent w-full flex items-start justify-start flex-col md:flex-row">
         {NavLinks.map((link, i) => (
           <NavigationMenuItem key={i}>
             <NavigationMenuTrigger className="rounded-full bg-transparent hover:bg-transparent px-4 py-1 text-primary font-medium w-full">

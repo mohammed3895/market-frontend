@@ -3,6 +3,8 @@ import React from "react";
 import { Input } from "../ui/input";
 import Btn from "../btn";
 import { Separator } from "../ui/separator";
+import { cn } from "@/lib/utils";
+import { buttonVariants } from "../ui/button";
 
 const Footer = () => {
   return (
@@ -47,8 +49,8 @@ const Footer = () => {
               <ul className="mt-8 space-y-4 text-sm">
                 <li>
                   <a
-                    className="text-gray-700 transition hover:text-gray-700/75"
-                    href="#"
+                    className="text-gray-700 transition hover:text-primary"
+                    href="/"
                   >
                     Company History
                   </a>
@@ -56,8 +58,8 @@ const Footer = () => {
 
                 <li>
                   <a
-                    className="text-gray-700 transition hover:text-gray-700/75"
-                    href="#"
+                    className="text-gray-700 transition hover:text-primary"
+                    href="/"
                   >
                     {" "}
                     Meet the Team{" "}
@@ -66,8 +68,8 @@ const Footer = () => {
 
                 <li>
                   <a
-                    className="text-gray-700 transition hover:text-gray-700/75"
-                    href="#"
+                    className="text-gray-700 transition hover:text-primary"
+                    href="/"
                   >
                     Employee Handbook
                   </a>
@@ -75,8 +77,8 @@ const Footer = () => {
 
                 <li>
                   <a
-                    className="text-gray-700 transition hover:text-gray-700/75"
-                    href="#"
+                    className="text-gray-700 transition hover:text-primary"
+                    href="/"
                   >
                     {" "}
                     Careers{" "}
@@ -91,8 +93,8 @@ const Footer = () => {
               <ul className="mt-8 space-y-4 text-sm">
                 <li>
                   <a
-                    className="text-gray-700 transition hover:text-gray-700/75"
-                    href="#"
+                    className="text-gray-700 transition hover:text-primary"
+                    href="/"
                   >
                     Web Development
                   </a>
@@ -100,8 +102,8 @@ const Footer = () => {
 
                 <li>
                   <a
-                    className="text-gray-700 transition hover:text-gray-700/75"
-                    href="#"
+                    className="text-gray-700 transition hover:text-primary"
+                    href="/"
                   >
                     {" "}
                     Web Design{" "}
@@ -110,8 +112,8 @@ const Footer = () => {
 
                 <li>
                   <a
-                    className="text-gray-700 transition hover:text-gray-700/75"
-                    href="#"
+                    className="text-gray-700 transition hover:text-primary"
+                    href="/"
                   >
                     {" "}
                     Marketing{" "}
@@ -120,8 +122,8 @@ const Footer = () => {
 
                 <li>
                   <a
-                    className="text-gray-700 transition hover:text-gray-700/75"
-                    href="#"
+                    className="text-gray-700 transition hover:text-primary"
+                    href="/"
                   >
                     {" "}
                     Google Ads{" "}
@@ -136,8 +138,8 @@ const Footer = () => {
               <ul className="mt-8 space-y-4 text-sm">
                 <li>
                   <a
-                    className="text-gray-700 transition hover:text-gray-700/75"
-                    href="#"
+                    className="text-gray-700 transition hover:text-primary"
+                    href="/"
                   >
                     {" "}
                     Online Guides{" "}
@@ -146,8 +148,8 @@ const Footer = () => {
 
                 <li>
                   <a
-                    className="text-gray-700 transition hover:text-gray-700/75"
-                    href="#"
+                    className="text-gray-700 transition hover:text-primary"
+                    href="/"
                   >
                     Conference Notes
                   </a>
@@ -155,8 +157,8 @@ const Footer = () => {
 
                 <li>
                   <a
-                    className="text-gray-700 transition hover:text-gray-700/75"
-                    href="#"
+                    className="text-gray-700 transition hover:text-primary"
+                    href="/"
                   >
                     {" "}
                     Forum{" "}
@@ -165,8 +167,8 @@ const Footer = () => {
 
                 <li>
                   <a
-                    className="text-gray-700 transition hover:text-gray-700/75"
-                    href="#"
+                    className="text-gray-700 transition hover:text-primary"
+                    href="/"
                   >
                     {" "}
                     Downloads{" "}
@@ -175,8 +177,8 @@ const Footer = () => {
 
                 <li>
                   <a
-                    className="text-gray-700 transition hover:text-gray-700/75"
-                    href="#"
+                    className="text-gray-700 transition hover:text-primary"
+                    href="/"
                   >
                     Upcoming Events
                   </a>
@@ -190,8 +192,8 @@ const Footer = () => {
               <ul className="mt-8 space-y-4 text-sm">
                 <li>
                   <a
-                    className="text-gray-700 transition hover:text-gray-700/75"
-                    href="#"
+                    className="text-gray-700 transition hover:text-primary"
+                    href="/"
                   >
                     {" "}
                     FAQs{" "}
@@ -200,8 +202,8 @@ const Footer = () => {
 
                 <li>
                   <a
-                    className="text-gray-700 transition hover:text-gray-700/75"
-                    href="#"
+                    className="text-gray-700 transition hover:text-primary"
+                    href="/"
                   >
                     {" "}
                     Support{" "}
@@ -215,7 +217,7 @@ const Footer = () => {
             <ul className="flex justify-center gap-6 sm:justify-end">
               <li>
                 <a
-                  href="#"
+                  href="/"
                   rel="noreferrer"
                   target="_blank"
                   className="text-teal-700 transition hover:text-teal-700/75"
@@ -238,7 +240,7 @@ const Footer = () => {
 
               <li>
                 <a
-                  href="#"
+                  href="/"
                   rel="noreferrer"
                   target="_blank"
                   className="text-teal-700 transition hover:text-teal-700/75"
@@ -261,7 +263,7 @@ const Footer = () => {
 
               <li>
                 <a
-                  href="#"
+                  href="/"
                   rel="noreferrer"
                   target="_blank"
                   className="text-teal-700 transition hover:text-teal-700/75"
@@ -280,7 +282,7 @@ const Footer = () => {
 
               <li>
                 <a
-                  href="#"
+                  href="/"
                   rel="noreferrer"
                   target="_blank"
                   className="text-teal-700 transition hover:text-teal-700/75"
@@ -303,7 +305,7 @@ const Footer = () => {
 
               <li>
                 <a
-                  href="#"
+                  href="/"
                   rel="noreferrer"
                   target="_blank"
                   className="text-teal-700 transition hover:text-teal-700/75"
@@ -326,12 +328,20 @@ const Footer = () => {
             </ul>
 
             <div className="mt-16 sm:flex sm:items-center sm:justify-between">
-              <div className="flex justify-center text-lg text-secondary sm:justify-start">
-                MARKET
-              </div>
+              <Link
+                href="https://www.linkedin.com/in/mohammed-sameer-bb81b3151/"
+                target="_blank"
+                className={cn(
+                  buttonVariants({ variant: "link" }),
+                  "flex justify-center text-lg font-normal text-primary sm:justify-start"
+                )}
+              >
+                Mohammed Sameer
+              </Link>
 
               <p className="mt-4 text-center text-sm text-gray-500 sm:mt-0 sm:text-right">
-                Copyright &copy; 2022. All rights reserved.
+                Copyright &copy; {new Date().getFullYear()}. All rights
+                reserved.
               </p>
             </div>
           </div>

@@ -8,7 +8,12 @@ const Banner = () => {
     <section>
       <div className="mx-auto max-w-screen-2xl px-4 py-16 sm:px-6 lg:px-8">
         <div className="flex w-full h-full items-center justify-center flex-col md:flex-row">
-          <div className="relative lg:py-8 w-full h-full">
+          <div
+            data-aos="fade-right"
+            data-aos-delay="500"
+            data-aos-duration="700"
+            className="relative lg:py-8 w-full h-full"
+          >
             <div className="relative h-52 sm:h-80 lg:h-[38rem]">
               <Image
                 alt=""
@@ -20,9 +25,12 @@ const Banner = () => {
             </div>
           </div>
 
-          <div className="relative flex items-center justify-center bg-white w-full h-full">
-            {/* <span className="hidden lg:absolute lg:inset-y-0 lg:-start-16 lg:block lg:w-16 lg:bg-white"></span> */}
-
+          <div
+            data-aos="fade-left"
+            data-aos-delay="500"
+            data-aos-duration="700"
+            className="relative flex items-center justify-center bg-white w-full h-full"
+          >
             <div className="p-4 md:p-8 w-full h-full flex flex-col justify-center">
               <h2 className="text-xl font-medium md:text-2xl lg:text-4xl">
                 Discover the new trending designs.

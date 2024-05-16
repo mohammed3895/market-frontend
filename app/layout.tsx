@@ -20,7 +20,7 @@ export default function RootLayout({
 }>) {
   useEffect(() => {
     AOS.init({
-      offset: 280,
+      // offset: 280,
       duration: 500,
       easing: "ease-in-out",
     });

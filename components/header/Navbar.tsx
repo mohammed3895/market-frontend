@@ -7,7 +7,7 @@ const Navbar = () => {
   return (
     <header className="w-full flex items-center h-16">
       <MobileNav />
-      <div className="hidden md:flex justify-center gap-6 items-center w-full">
+      <div className="hidden md:flex justify-start px-8 gap-6 items-center w-full">
         <Logo />
         <NavItems />
       </div>
