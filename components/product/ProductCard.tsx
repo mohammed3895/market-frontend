@@ -29,7 +29,7 @@ const ProductCard: any = ({
   return (
     <div
       className={cn(
-        "bg-white p-0 rounded-lg  relative invisible   w-full h-96 overflow-hidden",
+        "bg-white p-0 rounded-lg  relative invisible w-full h-72 md:h-96 overflow-hidden",
         { "visible animate-in fade-in-5": isVisible }
       )}
     >

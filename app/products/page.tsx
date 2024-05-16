@@ -2,6 +2,11 @@ import AllProducts from "@/components/product/AllProducts";
 import FashionPage from "@/components/product/FashionPage";
 import TechPage from "@/components/product/TechPage";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Market - Products",
+};
 
 const ProductsPage = async () => {
   return (

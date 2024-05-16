@@ -2,19 +2,14 @@ import Image from "next/image";
 import React from "react";
 import { Button } from "../ui/button";
 import AboutUsCard from "./AboutUsCard";
+import { SectionTitle } from "../SectionTitle";
 
 const AboutUs = () => {
   return (
-    <div className="py-8 my-8 w-full h-full md:p-4">
+    <div className="py-16 mt-16 lg:mt-32 w-full min-h-screen md:p-4 lg:p-8 xl:p-14">
       <div className="w-full h-full flex flex-col items-center text-center">
         <div className="w-full h-fit flex flex-col items-center text-center">
-          <h1 className="text-2xl text-center font-medium tracking-wide text-primary capitalize my-12 mx-auto w-fit py-4 border-b">
-            About Us
-          </h1>
-          <h3 className="text-sm font-normal text-muted-foreground w-3/4 mt-3">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure sint
-            nostrum repellendus harum ab eos in deleniti cumque suscipit nobis
-          </h3>
+          <SectionTitle title="Featured Products" />
         </div>
         <div className="mt-8 bg-sky-50 rounded-none md:rounded-3xl w-full min-h-full h-full p-4 md:py-10 lg:p-8 flex items-center">
           <div className="w-full h-full flex flex-col gap-12 md:[&>*:nth-child(odd)]:flex-row-reverse">

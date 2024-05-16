@@ -6,6 +6,7 @@ import { cn } from "@/lib/utils";
 import { buttonVariants } from "../ui/button";
 import List from "./List";
 import { ProductCardProps } from "./ProductCard";
+import { SectionTitle } from "../SectionTitle";
 
 const ProductList = async () => {
   const products = await prisma.product.findMany({
@@ -13,10 +14,8 @@ const ProductList = async () => {
   });
 
   return (
-    <section className="flex flex-col items-center justify-center py-16">
-      <h1 className="text-2xl text-center font-medium tracking-wide text-primary capitalize my-12 mx-auto w-fit py-4 border-b">
-        New Trends
-      </h1>
+    <section className="flex flex-col items-center justify-center p-4 mt-20 md:p-8 lg:p-8 xl:p-14">
+      <SectionTitle title="New Trends" />
       <div className="w-full h-full grid grid-cols-1 md:grid-cols-2 lg:col-span-2 lg:grid-cols-3 list gap-4 my-12 px-4">
         {products.slice(0, 4).map((product: ProductCardProps, i: number) => (
           <List index={i} product={product} key={product.id} />

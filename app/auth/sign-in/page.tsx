@@ -1,6 +1,11 @@
 import SignInForm from "@/components/forms/auth/SignInForm";
 import Image from "next/image";
 import Ikbal from "@/public/assets/Ikbal.svg";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Market - Singn in",
+};
 
 const SigninPage = () => {
   return (

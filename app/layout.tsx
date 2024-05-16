@@ -31,7 +31,7 @@ export default function RootLayout({
       <body
         className={cn(
           rubik.className,
-          "transition-colors ease-in-out duration-300"
+          "transition-colors ease-in-out duration-300 bg-background"
         )}
       >
         <SessionProvider>

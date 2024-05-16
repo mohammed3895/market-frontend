@@ -13,9 +13,9 @@ export default function MainLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <div className="w-full min-h-svh flex items-center lg:items-start p-0 lg:p-4 xl:px-8">
+    <div className="w-full min-h-svh flex items-center lg:items-start p-0">
       <div className="w-full h-full">
-        <Navbar />
+        {/* <Navbar /> */}
         {children}
         <Footer />
       </div>

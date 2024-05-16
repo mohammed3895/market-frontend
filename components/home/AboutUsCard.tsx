@@ -1,6 +1,7 @@
 import React from "react";
 import { Button } from "../ui/button";
 import Image from "next/image";
+import Btn from "../btn";
 
 const AboutUsCard = ({ img }: { img: string }) => {
   return (
@@ -10,17 +11,12 @@ const AboutUsCard = ({ img }: { img: string }) => {
           <h1 className="text-xl md:text-3xl lg:text-4xl font-medium tracking-tight leading-tight">
             Levitating music headphones
           </h1>
-          <p className="text-sm lg:text-base font-normal text-muted-foreground tracking-tight md:w-3/4">
+          <p className="text-sm lg:text-base font-normal text-muted-foreground tracking-tight md:w-3/4 mb-2">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum
             eius nisi eligendi omnis earum facere labore inventore corrupti.
             Odit.
           </p>
-          <Button
-            variant="outline"
-            className="rounded-full text-base font-normal text-primary border-primary py-3 px-6 bg-transparent hover:bg-primary hover:text-secondary-foreground"
-          >
-            pre order
-          </Button>
+          <Btn title="pre order" btnVariant="outline" />
         </div>
       </div>
 

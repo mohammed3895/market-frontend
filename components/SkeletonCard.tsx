@@ -3,7 +3,7 @@ import { Skeleton } from "./ui/skeleton";
 
 const SkeletonCard = () => {
   return (
-    <div className="bg-white p-0 rounded-lg relative h-96 overflow-hidden w-full">
+    <div className="bg-white p-0 rounded-lg relative h-72 md:h-96 overflow-hidden w-full">
       <Skeleton className="w-full h-full rounded-t-lg bg-gray-100" />
       <div className="flex flex-col row-span-1 items-start justify-start gap-2 p-4 mt-4 w-full">
         <Skeleton className=" bg-transparent w-3/4 h-4" />

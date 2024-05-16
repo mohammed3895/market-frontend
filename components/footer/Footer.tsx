@@ -9,7 +9,7 @@ const Footer = () => {
     <>
       <footer className="bg-white border-t mt-8">
         <div className="mx-auto max-w-screen-xl px-4 py-16 sm:px-6 lg:px-8">
-          <div className="flex flex-col items-center gap-4 rounded-lg bg-secondary p-6 shadow-lg sm:flex-row sm:justify-between">
+          <div className="flex flex-col items-center gap-4 rounded-lg bg-primary p-6 shadow-lg sm:flex-row sm:justify-between">
             <p className="text-xl font-medium text-white sm:text-xl">
               Make Your Next Career Move!{" "}
             </p>

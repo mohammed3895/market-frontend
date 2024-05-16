@@ -2,6 +2,11 @@ import SignUpForm from "@/components/forms/auth/SignUpForm";
 import Image from "next/image";
 import React from "react";
 import Marni from "@/public/assets/Marni.svg";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Market - Sign Up",
+};
 
 const SignUp = () => {
   return (

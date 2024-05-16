@@ -26,6 +26,7 @@
     "aos": "^2.3.4",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.0",
+    "embla-carousel-react": "^8.0.4",
     "framer-motion": "^11.0.3",
     "jsonwebtoken": "^9.0.2",
     "lucide-react": "^0.320.0",
